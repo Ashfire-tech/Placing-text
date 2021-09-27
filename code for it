@@ -1,15 +1,12 @@
-// ✏️ Captions. Add your own!
+
 let caption1 = "Ooowheeeee"
 let caption2 = "Blurp! Gloink splok."
 let caption3 = "Hairy Ogre"
-let caption4 = "I’m friendly!"
-
-// Add captions to the scene.
+let caption4 = "I’m friendly"
 let graphic1 = Graphic(text: caption1)
 scene.place(graphic1, at: Point(x: -250, y: 310))
 let graphic2 = Graphic(text: caption2)
 scene.place(graphic2, at: Point(x: 200, y: 160))
-// ✏️ Add the rest of the captions.
 let graphic3 = Graphic(text: caption3)
 scene.place(graphic3, at: Point(x: 230, y: -100))
 let graphic4 = Graphic(text: caption4)
